@@ -2,7 +2,7 @@
   "name": "mei-weddingcard",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Quasar Appo",
+  "productName": "mei-weddingcard",
   "author": "Isrrael Bolivar <isrraelbolivar77@gmail.com>",
   "private": true,
   "scripts": {

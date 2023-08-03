@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container container-text">
       <div class="row">
         <div class="col">
           <div class="text-shipping2 text-weight-bolder q-pa-md">
@@ -57,7 +57,7 @@
     </div>
   </div>
   <div class="container cont2">
-    <div class="row">
+    <div class="row justify-center">
       <div class="col-md">
         <div class="card-benefits q-pa-md">
           <q-item-section class="q-pt-md">
@@ -124,7 +124,7 @@
           </q-card-section>
         </div>
       </div>
-      <div class="col-md">
+      <div class="col-md column intems-center">
         <div class="card-benefits q-pa-md">
           <q-item-section class="q-pt-md">
             <div class="col text-center">
@@ -310,14 +310,15 @@ export default {};
     padding-top: 10%;
   }
 
-  .padding-card {
-    padding-left: 15%;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .cont1 {
-    padding-top: 5%;
+    padding-top: 2%;
+  }
+
+  .container-text {
+    padding: 30px;
   }
 
   .initialsDate {
@@ -329,31 +330,131 @@ export default {};
   }
 
  .text-shipping2 {
-  font-size: 20px
+  font-size: 25px
  }
 
  .names {
-  font-size: 50px;
+  font-size: 60px;
  }
 
   .text-subtitle {
-    font-size: 25px;
+    font-size: 30px;
   }
 
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .container-text {
+    padding: 30px;
+  }
+
+  .initialsDate {
+    font-size: 100px;
+  }
+
+  .text-shipping-date {
+    font-size: 30px
+  }
+
+ .text-shipping2 {
+  font-size: 25px
+ }
+
+ .names {
+  font-size: 60px;
+ }
+
+  .text-subtitle {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1281px) and (max-width: 1439px) {
+
+  .container-text {
+    padding: 30px;
+  }
+
+  .initialsDate {
+    font-size: 100px;
+  }
+
+  .text-shipping-date {
+    font-size: 30px
+  }
+
+ .text-shipping2 {
+  font-size: 25px
+ }
+
+ .names {
+  font-size: 60px;
+ }
+
+  .text-subtitle {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1440px) and (max-width: 2559px) {
+
+  .container-text {
+    padding: 30px;
+  }
+
+  .initialsDate {
+    font-size: 150px;
+  }
+
+  .text-shipping-date {
+    font-size: 40px;
+  }
+
+  .numberDate {
+    font-size: 69px
+  }
+
+ .text-shipping2 {
+  font-size: 35px
+ }
+
+ .names {
+  font-size: 70px;
+ }
+
+  .text-subtitle {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 2560px) {
-  .cont1 {
-    padding-top: 10%;
+  .container-text {
+    padding: 30px;
+  }
+
+  .initialsDate {
+    font-size: 250px;
+  }
+
+  .text-shipping-date {
+    font-size: 70px
+  }
+
+    .numberDate {
+    font-size: 95px
+  }
+
+ .text-shipping2 {
+  font-size: 65px
+ }
+
+ .names {
+  font-size: 120px;
+ }
+
+  .text-subtitle {
+    font-size: 70px;
   }
 }
 </style>
